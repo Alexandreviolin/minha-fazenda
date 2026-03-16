@@ -7,17 +7,17 @@
 
 ## Status Atual
 
-**Fase em andamento**: Fase 2 — Planejamento e Arquitetura
-**Próximo passo**: Revisar documentos da Fase 2 com o usuário para avançar à Fase 3 (Setup de Infraestrutura).
-**Bloqueios**: Aguardando aprovação da Stack (Expo/Next/Firebase) e Modelagem de Banco.
+**Fase em andamento**: Fase 3 — Setup de Infraestrutura
+**Próximo passo**: Revisar e finalizar o Setup com o Usuário.
+**Bloqueios**: Nenhum. Fase 3 concluída.
 
 ---
 
 ## Fases Concluídas
 
 - [x] **Fase 1 — Ideação** | Concluída em 2026-03-16 por Antigravity
-- [x] **Fase 2 — Planejamento e Arquitetura** | Aguardando revisão
-- [ ] **Fase 3 — Setup de Infraestrutura**
+- [x] **Fase 2 — Planejamento e Arquitetura** | Concluída em 2026-03-16 por Antigravity
+- [ ] **Fase 3 — Setup de Infraestrutura** | Em andamento
 - [ ] **Fase 4 — Design e Identidade Visual**
 - [ ] **Fase 5 — Implementação**
 - [ ] **Fase 6 — Testes Automatizados**
@@ -39,7 +39,13 @@
 
 | Recurso | Identificador / URL | Criado em | Por |
 |---------|---------------------|-----------|-----|
-| (A definir na fase 3) | | | |
+| Repositório GitHub | https://github.com/Alexandreviolin/minha-fazenda | 2026-03-16 | Antigravity |
+| Branch develop | Ativa no origin | 2026-03-16 | Antigravity |
+| GitHub Actions CI | .github/workflows/ci.yml | 2026-03-16 | Antigravity |
+| GitHub Actions Deploy | .github/workflows/deploy.yml | 2026-03-16 | Antigravity |
+| Estrutura de Pastas | src, tests (.gitignore, README) | 2026-03-16 | Antigravity |
+| Projeto Firebase | minha-fazenda-app-2026 | 2026-03-16 | Antigravity |
+| URL Firebase | https://console.firebase.google.com/project/minha-fazenda-app-2026/overview | 2026-03-16 | Antigravity |
 
 ---
 
@@ -74,12 +80,18 @@
 - ✅ Criados documentos da Fase 1: visao.md, negocio.md.
 - ✅ Criado este Chronicle.
 - ✅ Fase 1 aprovada pelo usuário.
-- ✅ Criados documentos da Fase 2: arquitetura.md, modelo-banco.md, api.md, .env.example.
-- 🔄 Aguardando review da Fase 2.
+### 2026-03-16 — Antigravity
+- ✅ Fase 2 aprovada pelo usuário.
+- ✅ Inicializado repositório Git local e branches padrão.
+- ✅ Criado repositório remoto no GitHub: Alexandreviolin/minha-fazenda.
+- ✅ Criada estrutura de pastas inicial, README.md, .gitignore e workflows do Github Actions.
+- ✅ Criado Projeto no Firebase: minha-fazenda-app-2026 via CLI.
+- ✅ Configurados arquivos: firebase.json, firestore.rules, forestore.indexes.json.
+- ✅ Regras do banco de dados (Firestore) provisionadas e subidas na nuvem.
 
 ---
 
 ## Próximos Passos (ordenados)
 
-1. [ ] Aguardar aprovação do usuário sobre a Stack, Modelagem e Arquitetura.
-2. [ ] Iniciar Fase 3 (Infraestrutura) criar repo, projeto firebase, CI/CD, pastas iniciais.
+1. [ ] Finalizar Fase 3 e comunicar ao usuário.
+2. [ ] Iniciar Fase 4 — Design e Identidade Visual.
